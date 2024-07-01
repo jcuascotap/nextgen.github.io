@@ -1,0 +1,332 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #03071e, #03071e, #fb6606);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #03071e;
+    padding: 1.5em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+nav button {
+    background-color: #fb6606;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.presentacion {
+    padding: 5em 0;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.presentacion h1 {
+    font-size: 3.54em;
+    margin-bottom: 0.5em;
+}
+
+.presentacion p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.boton1, .boton2 {
+    background-color: #fb6606;
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.5em;
+    margin-right: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.boton1:hover, .boton2:hover {
+    background-color: #e55905;
+}
+
+.boton2 {
+    background-color: transparent;
+    border: 2px solid #fb6606;
+}
+
+.boton2:hover {
+    background-color: #fb6606;
+    color: #fff;
+}
+
+.divtarjetas {
+    margin-top: 60px;
+    text-align: center; /* Centrar las imágenes */
+}
+
+.divtarjetas img {
+    max-width: 100%; /* Ajustar el tamaño de las imágenes */
+    height: auto;
+}
+.tarjeta{
+    width:600px;
+    left: 10px;
+}
+.tarjetas1 {
+    margin-top: 60px;
+    width: 100px;
+    height: auto;
+    display: block; /* Centrar las imágenes */
+    margin-left: auto; /* Centrar las imágenes */
+    margin-right: auto; /* Centrar las imágenes */
+}
+
+.beneficios {
+    padding: 5em 0;
+    background: linear-gradient(90deg, #03071e, #03071e, #fb6606);
+    color: #fff;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.benefits-tabs {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.tab-button1, .tab-button2, .tab-button3 {
+    font-family: "Poppins", sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 2px solid #fb6606;
+}
+
+.tab-button1:hover, .tab-button2:hover, .tab-button3:hover {
+    background-color: #03071e;
+    color: #fff;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    text-align: left;
+    max-width: 300px;
+}
+
+.benefit-item img {
+    padding-top: 80px;
+    width: 100px;
+    height: auto;
+    margin-right: 1em;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images-container img {
+    padding-top: 40px;
+    height: auto;
+    max-width: 400px; /* Ajustar el tamaño de las imágenes */
+}
+
+
+.transaccion-img, .transfer-img, .notificacion-img {
+    width: 300px;
+    height: auto;
+}
+
+
+.caracteristicas {
+    padding: 5em 0;
+    text-align: center;
+}
+
+.caracteristicas h2 {
+    font-size: 2.5em;
+}
+
+.caracteristicas-img {
+    height: auto;
+    width: 100%;
+    max-width: 999px;
+}
+
+.planes {
+    padding: 5em 0;
+    text-align: center;
+    background: linear-gradient(90deg, #03071e, #03071e, #fb6606);
+    color: #03071e;
+}
+
+.planes h3 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+    margin: 0 1em;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 2em;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.plan h4 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan li {
+    margin-bottom: 0.5em;
+}
+
+.cta-button {
+    text-align: center;
+}
+
+.cta-button button {
+    background-color: #fb6606;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.faq-container {
+    padding: 5em 0;
+    background: linear-gradient(90deg, #03071e, #03071e, #fb6606);
+    color: #03071e;
+    text-align: center;
+}
+
+.faq-container h1 {
+    color: #fff;
+}
+
+.faq-item {
+    margin-bottom: 1em;
+    text-align: left;
+    max-width: 600px;
+    margin: 1em auto;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #03071e;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+footer {
+    background-color: #03071e;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+@media (min-width: 768px) {
+    .presentacion h1 {
+        font-size: 4rem;
+    }
+
+    .beneficios .tab-content img {
+        max-width: 550px;
+    }
+
+    .beneficios .tab-content img.transaccion-img,
+    .beneficios .tab-content img.transfer-img,
+    .beneficios .tab-content img.notificacion-img {
+        max-width: 550px;
+    }
+    
+    .beneficios .tab-content img.gym-img,
+    .beneficios .tab-content img.beauty-img,
+    .beneficios .tab-content img.fiesta-img {
+        max-width: 550px;
+    }
+    
+    .beneficios .tab-content img.chatbot1,
+    .beneficios .tab-content img.chatbot2,
+    .beneficios .tab-content img.chatbot3 {
+        max-width: 550px;
+    }
+}
